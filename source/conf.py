@@ -40,8 +40,18 @@ release = u'0.0.1'
 # ones.
 extensions = [
     'sphinx.ext.intersphinx',
-    'sphinx.ext.viewcode',
+    'sphinx.ext.viewcode'
 ]
+
+intersphinx_mapping = {
+    'cusub_sim': ('~/robosub_ws/src/cusub_sim/', None)
+}
+
+# Tell sphinx what the primary language being documented is.
+primary_domain = 'py'
+
+# Tell sphinx what the pygments highlight language should be.
+highlight_language = 'py'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
