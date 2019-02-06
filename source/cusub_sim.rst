@@ -33,7 +33,7 @@ Once you are able to build the system without errors you can launch the basic si
 ::
 	
 	source ~/<your_robosub_ws>/devel/setup.bash
-	roslaunch cusub_sim divewell_startgate_setpoint.launch
+	roslaunch robosub_scenarios divewell_startgate.launch
 
 Keep in mind that this ONLY launches the simulator enviroment and objects. It does not launch the control packages or state estimation packages require to control the model. For more information check the cusub_common package.
 
