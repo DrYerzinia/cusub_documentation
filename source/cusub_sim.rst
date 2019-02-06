@@ -19,6 +19,11 @@ Next you will have to use the git submodule to import the UUV simulator packages
 	git submodule init
 	git submodule update
 
+Building UUV sim requires the protobuf C complier as a dependency
+::
+	sudo apt-get install protobuf-c-compiler # Ubuntu
+
+
 Once you have pulled both the cusub_sim repo as well as the UUV simulator submodule you will want to build the system from the root of your workspace.
 ::
 
